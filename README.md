@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Setup openWeather api key
+
+https://home.openweathermap.org/api_keys
+
+Add that key to the `src/environments/environment.ts` file.
+Also add the `http://api.openweathermap.org/data/2.5` to the `src/environments/environment.ts` file.
